@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mortgage Calculator Web App</title>
+</head>
+<body>
+    <h1>Mortgage Calculator Web App</h1>
+    <form action="/calculate" method="post">
+        <label for="principal">Loan Amount:</label>
+        <input type="text" name="principal" required><br>
+
+        <label for="interest_rate">Annual Interest Rate (%):</label>
+        <input type="text" name="interest_rate" required><br>
+
+        <label for="loan_term">Loan Term (Years):</label>
+        <input type="text" name="loan_term" required><br>
+
+        <input type="submit" value="Calculate">
+    </form>
+</body>
+</html>
